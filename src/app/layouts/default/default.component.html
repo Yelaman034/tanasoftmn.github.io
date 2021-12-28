@@ -1,0 +1,72 @@
+<div id="canvas">
+    <div id="box_wrapper">
+        <header class="page_header ls justify-nav-end fontHeader"
+            style="box-shadow:
+            0px 10px 8px -10px #DCDCDC;">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-4 col-lg-4 col-md-5 col-11">
+
+                        <a href="/" class="logo">
+                            <img src="assets/images/tanasoftLogoBlack.png"
+                                style="size: 100pc; padding:
+                                9px;" alt="">
+                            <span style="color: black; font-size: 16px;
+                                margin-left: 20px;
+                                font-weight: bold;">{{currentTitle}}
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-xl-7 col-lg-8 col-md-7 col-1">
+                        <div class="nav-wrap">
+
+                            <!-- main nav start -->
+                            <nav class="top-nav">
+                                <ul class="nav sf-menu">
+
+                                    <li>
+                                        <span class="icon-inline">
+                                            <span class="icon-styled"
+                                                style="color:black">
+                                                <i class="fa fa-phone"></i>
+                                            </span>
+
+                                            <span style="color:black">
+                                                +976 9905 1855
+                                            </span>
+                                        </span>
+
+                                    </li>
+                                    <!-- eof contacts -->
+                                    <li>
+                                        <span class="icon-inline">
+                                            <span class="icon-styled"
+                                                style="color:black">
+                                                <i class="fa fa-envelope"></i>
+                                            </span>
+
+                                            <span style="color:black">
+                                                info@tanasoft.mn
+                                            </span>
+                                        </span>
+
+                                    </li>
+                                    <!-- eof features -->
+
+                                </ul>
+
+
+                            </nav>
+                            <!-- eof main nav -->
+
+                            <!--hidding includes on small devices. They are duplicated in topline-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <app-sidebar></app-sidebar>
+        <router-outlet></router-outlet>
+        <app-footer></app-footer>
+    </div>
+</div>
