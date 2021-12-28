@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Light;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+
+a {
+  font-family: Light;
+}
+p,
+div {
+  font-family: Light;
+}

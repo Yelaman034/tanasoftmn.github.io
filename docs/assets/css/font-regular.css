@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+span,
+h5,
+i {
+  font-family: Regular;
+}
